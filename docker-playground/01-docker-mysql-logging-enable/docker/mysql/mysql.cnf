@@ -1,0 +1,9 @@
+[mysqld]
+log_error           =/var/log/mysql/mysql_error.log # 에러 로그 저장 위치 설정
+general_log         =1                              # 쿼리 로그 저장 활성화
+general_log_file    =/var/log/mysql/mysql.log       # 일반 로그 저장 위치 설정
+slow_query_log      =1                              # 슬로우 쿼리 로그 저장 활성화
+slow_query_log_file =/var/log/mysql/mysql_slow.log  # 슬로우 쿼리 로그 저장 위치 설정
+
+authentication_policy ="mysql_native_password"
+sql_mode  ="STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"

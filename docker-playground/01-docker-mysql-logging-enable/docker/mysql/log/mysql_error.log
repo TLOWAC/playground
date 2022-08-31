@@ -1,0 +1,38 @@
+2022-08-31T07:58:06.583283Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-08-31T07:58:06.590635Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.28) initializing of server in progress as process 101
+2022-08-31T07:58:06.739215Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-08-31T07:58:06.773734Z 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-08-31T07:58:06.778134Z 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-08-31T07:58:07.815849Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-08-31T07:58:14.832463Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2022-08-31T07:59:01.741764Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-08-31T07:59:01.743773Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.28) initializing of server in progress as process 99
+2022-08-31T07:59:01.877612Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-08-31T07:59:01.908012Z 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-08-31T07:59:01.912192Z 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-08-31T07:59:02.984859Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-08-31T07:59:10.910055Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2022-08-31T08:00:30.931809Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-08-31T08:00:30.941777Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 154
+2022-08-31T08:00:31.326242Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-08-31T08:00:31.427431Z 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-08-31T08:00:31.428916Z 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-08-31T08:00:33.362144Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-08-31T08:00:36.122374Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-08-31T08:00:36.129647Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-08-31T08:00:36.148229Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-08-31T08:00:36.492646Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2022-08-31T08:00:36.493806Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2022-08-31T08:02:21.788001Z 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.28).
+2022-08-31T08:02:23.003379Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-08-31T08:02:24.475076Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-08-31T08:02:24.477486Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+2022-08-31T08:02:24.733815Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-08-31T08:02:24.792757Z 1 [ERROR] [MY-012585] [InnoDB] Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-08-31T08:02:24.819121Z 1 [Warning] [MY-012654] [InnoDB] Linux Native AIO disabled.
+2022-08-31T08:02:25.306676Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-08-31T08:02:26.734032Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-08-31T08:02:26.737221Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-08-31T08:02:26.751020Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-08-31T08:02:27.044698Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2022-08-31T08:02:27.050539Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.28'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.

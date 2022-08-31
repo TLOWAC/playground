@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+        mysql:
+                image: mysql
+                ports:
+                        - 3309:3306
+                restart: always
+                volumes:
+                        - dbdata:/var/lib/mysql
+                        # docker 폴더 하위의 mysql.cnf 파일을 Docker Container 의 etc/mysql/conf.d 에 위치한 mysql.cnf 로 복사한다.
+                        - ./docker/mysql/mysql.cnf:/etc/mysql/conf.d/mysql.cnf
+                        - ./docker/mysql/log:/var/log/mysql:rw
+                environment:
+                        - MYSQL_USER=playground_user
+                        - MYSQL_ROOT_PASSWORD=admin1234
+                        - MYSQL_PASSWORD=admin1234
+                        - MYSQL_DATABASE=docker_dev_playground
+
+volumes:
+        dbdata:
